@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: #72d1d8
+}
+
+h1 {
+    margin: 30px auto;
+    width: 90%;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    -webkit-text-stroke: 1.5px black;
+    font-family: 'Carter One', cursive;
+    font-weight: 400;
+}
+
+.object {
+    margin: 30px auto;
+    width: 90%;
+    background: #c5eee4;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border: 2px solid #072c20;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3)
+}
+
+.picture, .title {
+    background: none;
+}
+
+.title {
+    text-align: center;
+    width: 90%;
+}
+
+.title a {
+    color: #346d5a;
+    background: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-variant-caps: all-small-caps;
+    font-size: 40px;
+}
+
+.title a:hover {
+    color: #619c89;
+}
